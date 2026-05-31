@@ -359,18 +359,21 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     title: "Tell Me a Story, Grandpa",
     bigQuestionNumber: 3,
     vocabulary: [
-      { id: "u6_1", word: "Couch", translation: "Divan" },
-      { id: "u6_2", word: "Chair", translation: "Stul" },
-      { id: "u6_3", word: "Lamp", translation: "Lampa" },
-      { id: "u6_4", word: "Clock", translation: "Soat" },
-      { id: "u6_5", word: "Bathtub", translation: "Vanna" },
-      { id: "u6_6", word: "Sink", translation: "Rakovina" },
-      { id: "u6_7", word: "Clean", translation: "Toza" },
-      { id: "u6_8", word: "Dirty", translation: "Kir" },
-      { id: "u6_9", word: "Tired", translation: "Charchagan" },
-      { id: "u6_10", word: "Hungry", translation: "Och" },
-      { id: "u6_11", word: "Thirsty", translation: "Chanqagan" },
-      { id: "u6_12", word: "Full", translation: "Toʻq" },
+      { id: "u6_1", word: "Arrive", translation: "Yetib kelmoq" },
+      { id: "u6_2", word: "Ask", translation: "Soʻramoq" },
+      { id: "u6_3", word: "Check", translation: "Tekshirmoq" },
+      { id: "u6_4", word: "Enter", translation: "Kirmoq" },
+      { id: "u6_5", word: "Poor", translation: "Kambagʻal" },
+      { id: "u6_6", word: "Crowded", translation: "Gavjum / Tirband" },
+      { id: "u6_7", word: "Clerk", translation: "Xizmatchi / Kotib" },
+      { id: "u6_8", word: "Visit", translation: "Tashrif buyurmoq" },
+      { id: "u6_9", word: "Sick", translation: "Kasal" },
+      { id: "u6_10", word: "Couch", translation: "Divan" },
+      { id: "u6_11", word: "Chair", translation: "Stul" },
+      { id: "u6_12", word: "Lamp", translation: "Lampa" },
+      { id: "u6_13", word: "Clock", translation: "Soat" },
+      { id: "u6_14", word: "Bathtub", translation: "Vanna" },
+      { id: "u6_15", word: "Sink", translation: "Rakovina" },
     ],
     grammar: {
       unitNumber: 6,
@@ -449,6 +452,12 @@ export const OXFORD_UNITS: OxfordUnit[] = [
       { id: "u7_7", word: "Single-digit number", translation: "Bir xonali son" },
       { id: "u7_8", word: "Double-digit number", translation: "Ikki xonali son" },
       { id: "u7_9", word: "Left", translation: "Qolgan (qoldiq)" },
+      { id: "u7_10", word: "Clean", translation: "Toza" },
+      { id: "u7_11", word: "Dirty", translation: "Kir" },
+      { id: "u7_12", word: "Tired", translation: "Charchagan" },
+      { id: "u7_13", word: "Hungry", translation: "Och" },
+      { id: "u7_14", word: "Thirsty", translation: "Chanqagan" },
+      { id: "u7_15", word: "Full", translation: "Toʻq" },
     ],
     grammar: {
       unitNumber: 7,
@@ -695,12 +704,12 @@ export const OXFORD_UNITS: OxfordUnit[] = [
       { id: "u10_7", word: "Invite", translation: "Taklif qilmoq" },
       { id: "u10_8", word: "Wash", translation: "Yuvmoq" },
       { id: "u10_9", word: "Share", translation: "Boʻlishmoq" },
-      { id: "u10_10", word: "Camp", translation: "Lager" },
-      { id: "u10_11", word: "Hike", translation: "Piyoda sayr" },
-      { id: "u10_12", word: "Ride a horse", translation: "Ot minish" },
-      { id: "u10_13", word: "Surf", translation: "Syorfing" },
-      { id: "u10_14", word: "Fish", translation: "Baliq ovlash" },
-      { id: "u10_15", word: "Ski", translation: "Changʻi uchish" },
+      { id: "u10_10", word: "Computer", translation: "Kompyuter" },
+      { id: "u10_11", word: "Laptop", translation: "Noutbuk" },
+      { id: "u10_12", word: "Camera", translation: "Kamera" },
+      { id: "u10_13", word: "Headphones", translation: "Quloqchin" },
+      { id: "u10_14", word: "Tablet", translation: "Planshet" },
+      { id: "u10_15", word: "Cell phone", translation: "Telefon" },
     ],
     grammar: {
       unitNumber: 10,
@@ -767,24 +776,24 @@ export const OXFORD_UNITS: OxfordUnit[] = [
   // --- UNIT 11 ---
   {
     number: 11,
-    title: "From Trees to Paper",
+    title: "Natural Resources",
     bigQuestionNumber: 6,
     vocabulary: [
-      { id: "u11_1", word: "Carton", translation: "Karton quti", emoji: "🧃" },
-      { id: "u11_2", word: "Diary", translation: "Kundalik", emoji: "📔" },
-      { id: "u11_3", word: "Paper", translation: "Qogʻoz", emoji: "📄" },
-      { id: "u11_4", word: "Blow", translation: "Puflamoq / Uchib ketmoq", emoji: "💨" },
-      { id: "u11_5", word: "Shelf", translation: "Javon", emoji: "🗄️" },
-      { id: "u11_6", word: "Recycling plant", translation: "Qayta ishlash zavodi", emoji: "♻️" },
-      { id: "u11_7", word: "Machine", translation: "Mashina / Mexanizm", emoji: "⚙️" },
-      { id: "u11_8", word: "Stationery store", translation: "Kanselyariya doʻkoni", emoji: "🏪" },
-      { id: "u11_9", word: "Rescue", translation: "Qutqarmoq", emoji: "🛶" },
-      { id: "u11_10", word: "Time", translation: "Vaqt", emoji: "⏰" },
-      { id: "u11_11", word: "Week", translation: "Hafta", emoji: "📅" },
-      { id: "u11_12", word: "Nine o'clock", translation: "Soat 9", emoji: "🕘" },
-      { id: "u11_13", word: "Nine-fifteen", translation: "9:15", emoji: "🕘" },
-      { id: "u11_14", word: "Nine-thirty", translation: "9:30", emoji: "🕤" },
-      { id: "u11_15", word: "Nine-forty-five", translation: "9:45", emoji: "🕟" },
+      { id: "u11_1", word: "Resources", translation: "Resurslar / Manbalar", emoji: "🌍" },
+      { id: "u11_2", word: "Wood", translation: "Yogʻoch", emoji: "🪵" },
+      { id: "u11_3", word: "Landfill", translation: "Chiqindixona", emoji: "🗑️" },
+      { id: "u11_4", word: "Land", translation: "Yer / Quruqlik", emoji: "⛰️" },
+      { id: "u11_5", word: "Trash", translation: "Chiqindi", emoji: "♻️" },
+      { id: "u11_6", word: "Smoke", translation: "Tutun", emoji: "💨" },
+      { id: "u11_7", word: "Sunlight", translation: "Quyosh nuri", emoji: "☀️" },
+      { id: "u11_8", word: "Reduce", translation: "Kamaytirmoq", emoji: "📉" },
+      { id: "u11_9", word: "Reuse", translation: "Qayta ishlatmoq", emoji: "🔄" },
+      { id: "u11_10", word: "Camp", translation: "Lager", emoji: "⛺" },
+      { id: "u11_11", word: "Hike", translation: "Piyoda sayohat", emoji: "🥾" },
+      { id: "u11_12", word: "Ride a horse", translation: "Ot minmoq", emoji: "🏇" },
+      { id: "u11_13", word: "Surf", translation: "Syorfing (toʻlqinda uchmoq)", emoji: "🏄" },
+      { id: "u11_14", word: "Fish", translation: "Baliq ovlamoq", emoji: "🎣" },
+      { id: "u11_15", word: "Ski", translation: "Changʻida uchmoq", emoji: "⛷️" },
     ],
     grammar: {
       unitNumber: 11,
@@ -798,53 +807,78 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     },
     reading: {
       unitNumber: 11,
-      title: "A Juice Carton's Diary",
-      aboutUz: "Apelsin sharbati qutisi qanday qilib chiqindi sifatida ko'lga tushib qolgani, u yerdan qutqarilib, qayta ishlash zavodida ajoyib bloknot daftarga aylangani haqidagi sarguzashtli va tarbiyaviy hikoya.",
-      sentenceEn: "At the recycling plant, a big machine turns old box paper into clean paper.",
-      sentenceUz: "Qayta ishlash zavodida katta mashina eski qog'oz qutilarni toza qog'ozga aylantiradi.",
-      emoji: "🧃",
-      fullTextEn: "January 15\nDear Diary, I'm sitting on a shelf in a big store! I can see many wonderful things. The little carton in front of me has a picture of an orange on it. I think I know what I am. I'm an orange juice carton! I'm made of hard paper.\n\nJanuary 16\nDear Diary, This morning something great happened. A little girl looked at my shelf for a long time, and then she chose me! She's taking me to a picnic by the lake so I hope she's very thirsty.\n\nJanuary 17\nDear Diary, I'm in a lake! The little girl drank the juice, but she left me in front of the lake. The wind blew me into the water. I don't like it here. There was a trash can behind the tree. Why didn't the little girl put me in it?\n\nJanuary 18\nDear Diary, I saw a man taking litter out of the lake with a net. He saw my bright orange carton, and he rescued me! He caught me and a plastic bottle in his net. Now we're in the boat, and we aren't trash anymore! We're happy.\n\nJanuary 19\nDear Diary, I'm at the recycling plant! It's a little scary here because there are large machines that make loud noises. Where's my plastic bottle friend? He's across from me. He's in a bin with other plastic bottles. I think this is a good place.\n\nJanuary 20\nDear Diary, I'm sitting on a shelf in a stationery store! Everything here is made of paper! Yes, they recycled me into a notebook! I'm very happy and excited, and I really want to see the recycling plant again. Maybe next time I'll be a comic book!",
-      fullTextUz: "15-yanvar\nAziz kundaligim, men katta bir do'kondagi javonomda o'tiribman! Men ko'plab ajoyib narsalarni ko'ra olyapman. To'g'rimdagi kichik qutining ustida apelsin rasmi bor. O'ylaymanki, men nimaligimni bilaman. Men apelsin sharbati qutisiman! Men qattiq qog'ozdan tayyorlanganman.\n\n16-yanvar\nAziz kundaligim, bugun ertalab ajoyib voqea yuz berdi. Bir kichkina qizaloq ancha vaqt javonimga qarab turdi va nihoyat meni tanladi! U meni ko'l bo'yidagi piknikka olib ketyapti, umid qilamanki, u juda chanqagan.\n\n17-yanvar\nAziz kundaligim, men ko'ldaman! Kichkina qizaloq sharbatni ichdi, lekin meni ko'l bo'yida qoldirib ketdi. Shamol meni suvga puflab tushirib yuborishiga sabab bo'ldi (uchirdi). Menga bu yer umuman yoqmayapti. Daraxt orqasida chiqindi qutisi bor edi. Nega qizaloq meni unga tashlamadi?\n\n18-yanvar\nAziz kundaligim, men bir kishining to'r bilan ko'ldan chiqindilarni tozalayotganini ko'rdim. U mening yorqin to'q sariq qutimni ko'rib qoldi va meni qutqardi! U meni va bir plastik shishani to'riga ilintirib oldi. Hozir biz qayiqdamiz, endi biz chiqindi emasmiz! Biz juda baxtlimiz.\n\n19-yanvar\nAziz kundaligim, men qayta ishlash zavodidaman! Bu yer biroz qo'rqinchli, chunki u yerda baland shovqin chiqaradigan ulkan mashinalar bor. Mening plastik shisha do'stim qayerda ekan? U ro'paramda, boshqa plastik idishlar bilan birga savat ichida turibdi. Menimcha, bu yaxshi joy.\n\n20-yanvar\nAziz kundaligim, men kanselyariya do'konidagi javonda o'tiribman! Bu yerdagi hamma narsa qog'ozdan qilingan! Ha, ular meni qayta ishlab, daftarga aylantirishibdi! Men juda baxtliman va hayajondaman, qayta ishlash zavodini yana bir bor ko'rishni juda xohlayman. Balki keyingi safar men komikslar kitobi bo'larman!",
+      title: "Natural Resources",
+      aboutUz: "Tabiiy resurslar (quyosh nuri, yog'och, suv va shamol) nimaligi, chiqindilarning kamaytirilishi (reduce) va qayta ishlashning (reuse) tabiatni saqlashga xizmati haqida.",
+      sentenceEn: "We get resources from the Earth, like wood and sunlight, and we must protect our land.",
+      sentenceUz: "Biz Yer yuzidan yog'och va quyosh nuri kabi tabiiy manbalarni olamiz va yerimizni himoya qilishimiz kerak.",
+      emoji: "🌍",
+      fullTextEn: "Natural Resources\nOur Earth gives us many wonderful things. These are called natural resources. Sunlight, water, clean air, wood, and land are all natural resources. We need these resources to live, sleep, and play.\n\nWood is a natural resource. We get wood from trees to build houses, chairs, and tables. Land is also a natural resource. We use land to build towns and grow healthy vegetables.\n\nBut we also create trash. A lot of our trash goes to a landfill. Too much trash is bad for our Earth. Smoke from landfills and factories makes the air dirty.\n\nWe must protect our Earth and preserve our natural resources. There are simple ways we can help. We can reduce the things we use. For example, we should turn off the water when we brush our teeth. We can also reuse things. Instead of throwing old plastic bags away, we can use them again. These are great ways to keep our Earth clean and healthy!",
+      fullTextUz: "Tabiiy resurslar\nBizning Yerimiz bizga ko'plab ajoyib narsalarni beradi. Bular tabiiy resurslar deb ataladi. Quyosh nuri, suv, toza havo, yog'och va yer - barchasi tabiiy resurslardir. Bizga yashash, uxlash va o'ynash uchun ushbu tabiiy manbalar kerak.\n\nYog'och ham tabiiy resursdir. Biz uylar, stul va stollar qurish uchun daraxtlardan yog'och olamiz. Yer ham tabiiy manbadir. Biz shaharchalar qurish va foydali sabzavotlar yetishtirish uchun yerdan foydalanamiz.\n\nAgar biz e'tiborsiz bo'lsak, chiqindilar (trash) hosil bo'ladi. Ko'pgina chiqindilarimiz chiqindixonaga (landfill) boradi. Haddan tashqari ko'p chiqindi Yerimiz uchun juda yomondir. Chiqindixonalar va zavodlardan chiqqan tutun (smoke) havoni ifloslantiradi.\n\nBiz Yerimizni asrashimiz va tabiiy resurslarni saqlab qolishimiz kerak. Buning oson yo'llari bor. Biz foydalanadigan narsalarimizni kamaytirishimiz (reduce) mumkin. Masalan, tishimizni yuvayotganda suvni o'chirib qo'yishimiz kerak. Shuningdek, narsalardan qayta foydalanishimiz (reuse) mumkin. Eski plastik paketlarni tashlab yuborish o'rniga, ularni yana qayta ishlatishimiz foydalidir. Bu Yerimizni toza va salomat saqlash ajoyib yo'lidir!",
       questions: [
         {
           id: "r11_q1",
-          questionEn: "What material is the juice carton made of?",
-          questionUz: "Sharbat qutisi qanday materialdan tayyorlangan?",
-          options: ["Hard paper", "Shiny plastic", "Thin metal", "Thick wood"],
+          questionEn: "What are natural resources according to the text?",
+          questionUz: "Matnga ko'ra, tabiiy resurslar (natural resources) nima?",
+          options: [
+            "Wonderful things that our Earth gives us, like sunlight and wood",
+            "Plastic bottles we put in the deep lake",
+            "Monkeys stealing foods in small towns",
+            "Loud machines in stationery stores"
+          ],
           correctIndex: 0,
-          explanation: "15-yanvardagi yozuvga ko'ra, quti qattiq qog'ozdan tayorlangan ('I'm made of hard paper')."
+          explanation: "Tabiiy resurslar bizga Yer beradigan ajoyib narsalardir ('Our Earth gives us many wonderful things. These are called natural resources')."
         },
         {
           id: "r11_q2",
-          questionEn: "How did the juice carton end up in the lake on January 17?",
-          questionUz: "17-yanvarda sharbat qutisi qanday qilib ko'lga tushib qoldi?",
-          options: ["The little girl threw it in on purpose", "The wind blew it into the water", "A dog dragged it into the lake", "The man dropped it from his boat"],
-          correctIndex: 1,
-          explanation: "Shamal uni ko'lga uchirib yuborgan ('The wind blew me into the water')."
+          questionEn: "Where does a lot of our trash go, which is bad for Earth?",
+          questionUz: "Ko'plab chiqindilarimiz qayerga boradi, bu Yer uchun juda zararli?",
+          options: [
+            "To a landfill",
+            "To a quiet music classroom",
+            "To a library",
+            "To a high orange tree in the garden"
+          ],
+          correctIndex: 0,
+          explanation: "Barcha chiqindilar asosan chiqindixonaga to'planadi ('A lot of our trash goes to a landfill')."
         },
         {
           id: "r11_q3",
-          questionEn: "Who rescued the juice carton from the water?",
-          questionUz: "Sharbat qutisini suvdan kim qutqarib oldi?",
-          options: ["A little girl with a big dog", "A man taking litter out of the lake with a net", "The owner of the stationery store", "A big red machine"],
-          correctIndex: 1,
-          explanation: "Suvdan chiqindilarni to'r bilan tozalayotgan kishi uni qutqargan ('A man taking litter out of the lake with a net... rescued me!')."
+          questionEn: "What is land used for, as mentioned in the text?",
+          questionUz: "Matnda aytilishicha, yerdan (land) nima uchun foydalaniladi?",
+          options: [
+            "To build towns and grow healthy vegetables",
+            "To play the big heavy trumpet under water",
+            "To hide sticky jars from hungry monkeys",
+            "To recycling orange juices into computer mouse"
+          ],
+          correctIndex: 0,
+          explanation: "Yerda shaharlar quriladi va foydali sabzavotlar yetishtiriladi ('We use land to build towns and grow healthy vegetables')."
         },
         {
           id: "r11_q4",
-          questionEn: "What did the recycling plant turn the juice carton into?",
-          questionUz: "Qayta ishlash zavodi sharbat qutisini nimaga aylantirdi?",
-          options: ["A new plastic bottle", "A bright orange toy trumpet", "A notebook in a stationery store", "A trash can behind a tree"],
-          correctIndex: 2,
-          explanation: "Ular uni daftarga aylantirib, kanselyariya do'koniga qo'yishgan ('recycled me into a notebook!')."
+          questionEn: "How can we reduce the water we use?",
+          questionUz: "Suv isrofini kamaytirish (reduce) uchun nima qilishimiz kerak?",
+          options: [
+            "Turn off the water when brushing teeth",
+            "Leave the freezer open all night",
+            "Pour milkshake on salad",
+            "Go ski on East Mountain"
+          ],
+          correctIndex: 0,
+          explanation: "Tishni tozalash jarayonida suvni berkitish suv sarfini kamaytiradi ('turn off the water when we brush our teeth')."
         },
         {
           id: "r11_q5",
-          questionEn: "What does the carton hope to become next time it gets recycled?",
-          questionUz: "Quti keyingi safar qayta ishlanganda nima bo'lishni umid qiladi?",
-          options: ["A comic book", "An orange juice carton again", "A big scary machine", "A wooden shelf"],
+          questionEn: "Why is reuse helpful according to the text?",
+          questionUz: "Matnga ko'ra, narsalardan qayta foydalanish (reuse) nima uchun foydali?",
+          options: [
+            "Because instead of throwing plastic bags away, we can use them again to keep Earth clean",
+            "Because we can make loud noises in the music concert",
+            "Because we learn subtraction and test scores faster",
+            "Because we can ride a horse high on narrow mountain paths"
+          ],
           correctIndex: 0,
-          explanation: "U kelajakda komikslar kitobi bo'lishni xohlamoqda ('Maybe next time I'll be a comic book!')."
+          explanation: "Plastik paketlarni tashlab yubormasdan qayta ishlatish orqali Yerni toza saqlaymiz ('Instead of throwing old plastic bags away, we can use them again')."
         }
       ]
     }
@@ -856,19 +890,21 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     title: "Plastic Fantastic?",
     bigQuestionNumber: 6,
     vocabulary: [
-      { id: "u12_1", word: "High / Low", translation: "Baland / Past", emoji: "🔊" },
-      { id: "u12_2", word: "Excited", translation: "Hayajonlangan / Hursand", emoji: "🤩" },
-      { id: "u12_3", word: "Sleepy", translation: "Uyqusiragan", emoji: "😴" },
-      { id: "u12_4", word: "Wolf", translation: "Boʻri", emoji: "🐺" },
-      { id: "u12_5", word: "Feelings", translation: "Tuygʻular", emoji: "❤️" },
-      { id: "u12_6", word: "Right / Wrong", translation: "Toʻgʻri / Notoʻgʻri", emoji: "✅" },
-      { id: "u12_7", word: "Trumpet", translation: "Truba (musiqa asbobi)", emoji: "🎺" },
-      { id: "u12_8", word: "Proud", translation: "Faxrlanadigan", emoji: "😎" },
-      { id: "u12_9", word: "Smile", translation: "Jilmayish", emoji: "😊" },
-      { id: "u12_10", word: "Nervous", translation: "Asabiy / Hayajonlangan", emoji: "😰" },
-      { id: "u12_11", word: "Yawn", translation: "Esnamoq", emoji: "🥱" },
-      { id: "u12_12", word: "Unhappy", translation: "Baxtsiz / Xafa", emoji: "😢" },
-      { id: "u12_13", word: "Cry", translation: "Yigʻlamoq", emoji: "😭" },
+      { id: "u12_1", word: "Carton", translation: "Karton quticha", emoji: "📦" },
+      { id: "u12_2", word: "Diary", translation: "Kundalik", emoji: "📓" },
+      { id: "u12_3", word: "Paper", translation: "Qogʻoz", emoji: "📄" },
+      { id: "u12_4", word: "Blow", translation: "Puflamoq / Uchib ketmoq", emoji: "💨" },
+      { id: "u12_5", word: "Shelf", translation: "Tokcha", emoji: "🗄️" },
+      { id: "u12_6", word: "Recycling plant", translation: "Qayta ishlash zavodi", emoji: "🏭" },
+      { id: "u12_7", word: "Machine", translation: "Mashina / Qurilma", emoji: "⚙️" },
+      { id: "u12_8", word: "Stationery store", translation: "Kantselyariya doʻkoni", emoji: "🏪" },
+      { id: "u12_9", word: "Rescue", translation: "Qutqarmoq", emoji: "🛟" },
+      { id: "u12_10", word: "Time", translation: "Vaqt", emoji: "⏰" },
+      { id: "u12_11", word: "Week", translation: "Hafta", emoji: "📅" },
+      { id: "u12_12", word: "Nine o'clock", translation: "Soat toʻqqiz (9:00)", emoji: "🕘" },
+      { id: "u12_13", word: "Nine-fifteen", translation: "Soat 9:15", emoji: "🕤" },
+      { id: "u12_14", word: "Nine-thirty", translation: "Soat 9:30", emoji: "🕤" },
+      { id: "u12_15", word: "Nine forty-five", translation: "Soat 9:45", emoji: "🕙" },
     ],
     grammar: {
       unitNumber: 12,
@@ -881,53 +917,58 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     },
     reading: {
       unitNumber: 12,
-      title: "How Music Makes Us Feel",
-      aboutUz: "Musiqa qanday qilib kayfiyatimizga ta'sir qilishi, turli ovozlar va asboblar bizda qanday hissiyotlar hamda tasavvurlar uyg'otishi haqida tushuntiruvchi darslik matni.",
-      sentenceEn: "Slow music can make us feel sleepy, and fast music can make us feel excited.",
-      sentenceUz: "Sekin musiqa bizni uyqusirayotgandek his qildirishi, tez musiqa esa xursand qilishi mumkin.",
-      emoji: "🎵",
-      fullTextEn: "People all around the world enjoy music. Some music is fast, and some music is slow. Some music is high, and some music is low. Listen to this piano music. What can you say about it? Is it fast or slow, high or low?\n\nMusic and Feelings\nWhen we listen to music, we feel different things. Slow music can make us feel sleepy, and fast music can make us feel excited. The same music can make one person feel sad and another person feel happy. There are no right or wrong feelings about music.\n\nListen to this flute music. How does it make you feel? Mothers play this music for their babies at night because it helps the babies sleep. Now listen to this trumpet music. How does it make you feel?\n\nMusic and Imagination\nMusic can help us imagine things, like animals. When the music is fast, we can imagine an animal running. When it's slow, we can imagine an animal sleeping. When it's low and slow, we can imagine an animal that is in danger. Listen. What animal does this sound like, a duck or a wolf? What do you imagine the animals are doing?\n\nListen to this music. What did you hear, thunder or rain? Now listen again. What did you hear this time?\n\nNext time you listen to music, draw a picture of what you imagine. Look at it a week later. Does it help you to remember the music?",
-      fullTextUz: "Butun dunyo bo'ylab odamlar musiqadan bahramand bo'lishadi. Ba'zi musiqalar tez, ba'zilari esa sekin. Ba'zi musiqalar yuqori (baland ohangda), ba'zilari esa past ohangda bo'ladi. Ushbu fortepiano musiqasini tinglang. Bu haqda nima deya olasiz? U tezmi yoki sekin, balandmi yoki past?\n\nMusiqa va Tuyg'ular\nMusiqa tinglaganimizda, biz turli xil narsalarni his qilamiz. Sekin musiqa bizni uyqusiragan (uyquchan) his qilishga majbur qilishi mumkin, tez musiqa esa bizni hayajonlangan (xursand) qilishi mumkin. Bir xil musiqaning o'zi bir odamni xafa qilsa, boshqa bir kishini xursand qilishi mumkin. Musiqa borasida to'g'ri yoki noto'g'ri tuyg'ular mavjud emas.\n\nUshbu fleyta musiqasini tinglang. U sizga qanday ta'sir qilyapti? Onalar kechasi chaqaloqlariga bu musiqani chalishadi, chunki u chaqaloqlarning uxlashiga yordam beradi. Endi esa ushbu truba musiqasini tinglang. U sizga qanday tuyg'u beryapti?\n\nMusiqa va Tasavvur (Xayol)\nMusiqa bizga hayvonlar kabi narsalarni tasavvur qilishimizga yordam beradi. Musiqa tez bo'lganda, biz yugurayotgan hayvonni tasavvur qilishimiz mumkin. Sekin bo'lganda, uxlashayotgan hayvonni tasavvur qilamiz. Past va sekin bo'lganda, xavf ostida qolgan hayvonni tasavvur qila olamiz. Tinglang. Bu ovoz qaysi hayvonga o'xshaydi, o'rdakmi yoki bo'rimi? Hayvonlar nima qilayotganini tasavvur qilyapsiz?\n\nUshbu musiqani tinglang. Nima eshitdingiz, momaqaldiroqmi yoki yomg'irmi? Endi esa yana tinglang. Bu safar nima eshitdingiz?\n\nKeyingi safar musiqa tinglaganingizda, tasavvur qilayotgan narsangizning rasmini chizing. Bir hafta o'tgach, unga qarang. Bu sizga musiqani eslab qolishga yordam beradimi?",
+      title: "A Plastic Bottle's Journey",
+      aboutUz: "Plastik idishning bog'da qoldirib ketilishi, ifloslanishi, so'ngra maxsus qayta ishlash qutisiga solinib, bolalar sirpanchig'iga aylantirilishi sarguzashtlari.",
+      sentenceEn: "Do not throw away plastic bottles because we can recycle them.",
+      sentenceUz: "Plastik idishlarni tashlab yubormang, chunki biz ularni qayta ishlashimiz mumkin.",
+      emoji: "🧴",
+      fullTextEn: "A Plastic Bottle's Journey\nOnce upon a time, there was a little plastic bottle. It lived in a big store. It felt excited and happy. One day, a little boy bought the bottle and took it to a park. He drank the cool water inside, but then he threw the bottle away on the grass.\n\nThe little plastic bottle felt unhappy. It rolled under a table and became dirty. If rain came, would the bottle float or sink in the water? Plastic bottles float on water, but they do not disappear. They stay on the land or in the water for a long, long time. This is bad for our Earth.\n\nBut then, a kind girl picked up the plastic bottle. She did not throw it in the trash. She carried it to a special recycling bin!\n\nThe bottle traveled to a recycling plant. At the recycling plant, giant machines washed and recycled the plastic. They turned the little bottle into a new, colorful playground slide! Now, kids slide down it everyday and smile. The plastic bottle is proud and happy. Recycle your plastic bottles to protect our beautiful Earth!",
+      fullTextUz: "Plastik idishning sarguzashti\nBir bor ekan, bir yo'q ekan, kichkina plastik idish bor ekan. U katta do'konda yashar ekan. U o'zini juda hayajonlangan va baxtli his qilar ekan. Bir kuni, bir bolakay idishni sotib olib, uni bog'ga olib boribdi. U ichidagi muzdek suvni ichibdi-yu, so'ngra idishni maysazorga tashlab yuboribdi.\n\nKichkina plastik idish o'zini juda xafa (unhappy) his qilibdi. U stol tagiga dumalab tushibdi va kir (dirty) bo'libdi. Agar yomg'ir yog'sa, idish suv betida qalqiydimi (float) yoki cho'kadimi (sink)? Plastik idishlar suvda qalqiydi, lekin ular yo'qolib ketmaydi. Ular yerda yoki suvda juda uzoq vaqt saqlanib qoladi. Bu bizning Yerimiz uchun zararli.\n\nLekin keyin, bir mehribon qizaloq plastik idishni topib olibdi. U uni axlatga tashlab yubormay, maxsus qayta ishlash qutisiga solibdi!\n\nIdish qayta ishlash zavodiga yo'l olibdi. Ushbu zavodda ulkan mashinalar plastikni tozalab, qayta ishlabdi (recycle). Ular kichkina idishni yangi va rang-barang bolalar sirpanchig'iga aylantirishibdi! Endi bolalar har kuni undan sirpanib tushishadi va jilmayishadi (smile). Plastik idish juda g'ururli (proud) va baxtli. Go'zal Yerimizni asrash uchun plastik idishlarni qayta ishlashga topshiring!",
       questions: [
         {
           id: "r12_q1",
-          questionEn: "How can slow music make us feel according to the text?",
-          questionUz: "Matnga ko'ra, sekin musiqa bizni qanday his qildirishi mumkin?",
-          options: ["Sleepy", "Excited", "Nervous and proud", "Ready to jump"],
-          correctIndex: 0,
-          explanation: "Sekin musiqa bizga uyquchanlik va osoyishtalik keltiradi ('Slow music can make us feel sleepy')."
+          questionEn: "How did the little plastic bottle feel in the big store at first?",
+          questionUz: "Boshida kichik plastik idish katta do'konda o'zini qanday his etgan?",
+          options: ["Nervous and unhappy", "Excited and happy", "Sleepy and lazy", "Dirty and worried"],
+          correctIndex: 1,
+          explanation: "Hikoya boshida idish xursand edi ('It felt excited and happy')."
         },
         {
           id: "r12_q2",
-          questionEn: "Are there right or wrong feelings about music?",
-          questionUz: "Musiqa haqida to'g'ri yoki noto'g'ri tuyg'ular bormi?",
-          options: ["Yes, only happy feelings are correct", "No right or wrong feelings about music", "Yes, crying is always wrong", "Yes, trumpet music is incorrect"],
+          questionEn: "What happens to plastic bottles in water?",
+          questionUz: "Suvda plastik idishlar bilan nima sodir bo'ladi?",
+          options: ["They sink quickly and disappear", "They float on water and do not disappear", "They turn into fish automatically", "They make the water sweet"],
           correctIndex: 1,
-          explanation: "Musiqani har kim xohlagancha qabul qiladi, unda to'g'ri yoki noto'g'ri ko'rsatkichlar yo'q ('There are no right or wrong feelings about music')."
+          explanation: "Plastik idishlar suvda qalqiydi va yo'qolib ketmaydi ('Plastic bottles float on water, but they do not disappear')."
         },
         {
           id: "r12_q3",
-          questionEn: "Why do mothers play flute music for their babies at night?",
-          questionUz: "Nima uchun onalar tunda chaqaloqlari uchun fleyta musiqasini chalib berishadi?",
-          options: ["To teach them how to play the trumpet", "Because it helps the babies sleep", "To make them dance together", "To make them cry"],
-          correctIndex: 1,
-          explanation: "Bu musiqa chaqaloqlarni uxlashiga yordam borgani uchun chalishadi ('because it helps the babies sleep')."
+          questionEn: "Where did the kind girl carry the plastic bottle?",
+          questionUz: "Mehribon qizaloq plastik idishni qayerga olib bordi?",
+          options: ["To a special recycling bin", "Back to the big store", "To the deep orange tree", "Under a wooden table"],
+          correctIndex: 0,
+          explanation: "Qizaloq uni maxsus qayta ishlash qutisiga tashladi ('She carried it to a special recycling bin!')."
         },
         {
           id: "r12_q4",
-          questionEn: "What kind of animal do we imagine when the music is low and slow?",
-          questionUz: "Musiqa past va sekin bo'lganda qanday hayvonni tasavvur qilamiz?",
-          options: ["An animal that is running", "An animal that is in danger", "A happy bird", "A dancing dolphin"],
+          questionEn: "What did the recycling plant turn the bottle into?",
+          questionUz: "Qayta ishlash zavodi idishni nimaga aylantirdi?",
+          options: ["A computer keyboard", "A new, colorful playground slide", "A long shiny violin", "A red trash can"],
           correctIndex: 1,
-          explanation: "Osonlikcha xatar ostidagi hayvon ko'z oldimizga keladi ('When it's low and slow, we can imagine an animal that is in danger')."
+          explanation: "Ular uni bolalar sirpanchig'iga aylantirishgan ('They turned the little bottle into a new, colorful playground slide!')."
         },
         {
           id: "r12_q5",
-          questionEn: "What does the author suggest doing to remember the music better?",
-          questionUz: "Muallif musiqani yaxshi eslab qolish uchun nima qilishni taklif qilmoqda?",
-          options: ["Draw a picture of what you imagine", "Listen to a loud wolf howl", "Buy a new plastic trumpet", "Sleep during the play"],
-          correctIndex: 0,
-          explanation: "U tasavvur qilayotgan narsangizning rasmini chizishingizni tavsiya qilgan ('draw a picture of what you imagine')."
+          questionEn: "What is the main message of 'A Plastic Bottle's Journey'?",
+          questionUz: "Hikoyaning asosiy tarbiya darsi nima?",
+          options: [
+            "We must throw trash under tables to sleep easily",
+            "Recycle plastic bottles to protect our beautiful Earth",
+            "Play fast high trumpet music to make babies cry",
+            "Ride a horse on snowy hills safely"
+          ],
+          correctIndex: 1,
+          explanation: "Yerni asrash uchun plastik idishlarni qayta ishlash eng asosiy yechimdir ('Recycle your plastic bottles to protect our beautiful Earth!')."
         }
       ]
     }
@@ -939,21 +980,21 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     title: "Making Music",
     bigQuestionNumber: 7,
     vocabulary: [
-      { id: "u13_1", word: "Notes", translation: "Notalar", emoji: "🎶" },
-      { id: "u13_2", word: "Wait", translation: "Mutqish / Kutmoq", emoji: "⏳" },
-      { id: "u13_3", word: "Worried", translation: "Xavotirlangan", emoji: "😟" },
-      { id: "u13_4", word: "The flu", translation: "Gripp", emoji: "🤒" },
-      { id: "u13_5", word: "Tears", translation: "Koʻz yoshlar", emoji: "😢" },
-      { id: "u13_6", word: "Solo", translation: "Yakkaxon (solo ijro)", emoji: "👤" },
-      { id: "u13_7", word: "Hummingbird", translation: "Kolibri qushi", emoji: "🐦" },
-      { id: "u13_8", word: "Record", translation: "Yozib olmoq", emoji: "🎙️" },
-      { id: "u13_9", word: "Musician", translation: "Musiqachi", emoji: "🧑‍🎤" },
-      { id: "u13_10", word: "Have lunch", translation: "Tushlik qilmoq", emoji: "🍽️" },
-      { id: "u13_11", word: "Give a concert", translation: "Konsert bermoq", emoji: "🎤" },
-      { id: "u13_12", word: "Make a mistake", translation: "Xato qilmoq", emoji: "❌" },
-      { id: "u13_13", word: "Sign an autograph", translation: "Avtograf qoʻymoq", emoji: "✍️" },
-      { id: "u13_14", word: "Talk to fans", translation: "Muxlislar bilan gaplashmoq", emoji: "💬" },
-      { id: "u13_15", word: "Do an interview", translation: "Intervyu bermoq", emoji: "📰" },
+      { id: "u13_1", word: "High", translation: "Baland / Yuqori (tovush)", emoji: "📈" },
+      { id: "u13_2", word: "Low", translation: "Past / Past ohang", emoji: "📉" },
+      { id: "u13_3", word: "Excited", translation: "Hayajonlangan / Xursand", emoji: "🤩" },
+      { id: "u13_4", word: "Sleepy", translation: "Uyqusiragan", emoji: "😴" },
+      { id: "u13_5", word: "Wolf", translation: "Boʻri", emoji: "🐺" },
+      { id: "u13_6", word: "Feelings", translation: "Hissiyotlar", emoji: "🎭" },
+      { id: "u13_7", word: "Right", translation: "Toʻgʻri / Maʼqul", emoji: "✅" },
+      { id: "u13_8", word: "Wrong", translation: "Notoʻgʻri / Xato", emoji: "❌" },
+      { id: "u13_9", word: "Trumpet", translation: "Truba (musiqa asbobi)", emoji: "🎺" },
+      { id: "u13_10", word: "Proud", translation: "Gʻururlangan / Faxrlanadigan", emoji: "😎" },
+      { id: "u13_11", word: "Smile", translation: "Jilmayish", emoji: "😊" },
+      { id: "u13_12", word: "Nervous", translation: "Hayajonlangan / Tashvishli", emoji: "😰" },
+      { id: "u13_13", word: "Yawn", translation: "Esnamoq", emoji: "🥱" },
+      { id: "u13_14", word: "Unhappy", translation: "Baxtsiz / Gʻamgin", emoji: "😢" },
+      { id: "u13_15", word: "Cry", translation: "Yigʻlamoq", emoji: "😭" },
     ],
     grammar: {
       unitNumber: 13,
@@ -1024,79 +1065,80 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     title: "The Song of the Whale",
     bigQuestionNumber: 7,
     vocabulary: [
-      { id: "u14_1", word: "Push", translation: "Itarmoq", emoji: "🫷" },
-      { id: "u14_2", word: "Pull", translation: "Tortmoq", emoji: "🫴" },
-      { id: "u14_3", word: "Movement", translation: "Harakat", emoji: "🏃" },
-      { id: "u14_4", word: "Ground", translation: "Yer", emoji: "🌱" },
-      { id: "u14_5", word: "Throw", translation: "Otmoq / Otish", emoji: "☄️" },
-      { id: "u14_6", word: "Speed", translation: "Tezlik", emoji: "⚡" },
-      { id: "u14_7", word: "Heavy / Light", translation: "Ogʻir / Yengil", emoji: "⚖️" },
-      { id: "u14_8", word: "Easy", translation: "Oson", emoji: "👌" },
-      { id: "u14_9", word: "Computer mouse", translation: "Kompyuter sichqonchasi", emoji: "🖱️" },
-      { id: "u14_10", word: "Stapler", translation: "Stepler", emoji: "📎" },
-      { id: "u14_11", word: "Suitcase", translation: "Chamadon", emoji: "🧳" },
-      { id: "u14_12", word: "Broom", translation: "Supurgi", emoji: "🧹" },
-      { id: "u14_13", word: "Door", translation: "Eshik", emoji: "🚪" },
-      { id: "u14_14", word: "Desk drawer", translation: "Gʻaladon", emoji: "📥" },
+      { id: "u14_1", word: "Notes", translation: "Notalar", emoji: "🎶" },
+      { id: "u14_2", word: "Wait", translation: "Kutmoq", emoji: "⏳" },
+      { id: "u14_3", word: "Worried", translation: "Xavotirlangan", emoji: "😟" },
+      { id: "u14_4", word: "The flu", translation: "Gripp", emoji: "🤒" },
+      { id: "u14_5", word: "Tears", translation: "Koʻz yoshlar", emoji: "😢" },
+      { id: "u14_6", word: "Solo", translation: "Yakkaxon (solo ijro)", emoji: "👤" },
+      { id: "u14_7", word: "Hummingbird", translation: "Kolibri qushi", emoji: "🐦" },
+      { id: "u14_8", word: "Record", translation: "Yozib olmoq", emoji: "🎙️" },
+      { id: "u14_9", word: "Musician", translation: "Musiqachi", emoji: "🧑‍🎤" },
+      { id: "u14_10", word: "Have lunch", translation: "Tushlik qilmoq", emoji: "🍽️" },
+      { id: "u14_11", word: "Give a concert", translation: "Konsert bermoq", emoji: "🎤" },
+      { id: "u14_12", word: "Make a mistake", translation: "Xato qilmoq", emoji: "❌" },
+      { id: "u14_13", word: "Sign an autograph", translation: "Avtograf yozib bermoq", emoji: "✍️" },
+      { id: "u14_14", word: "Talk to fans", translation: "Muxlislar bilan gaplashmoq", emoji: "💬" },
+      { id: "u14_15", word: "Do an interview", translation: "Intervyu bermoq / suhbatlashmoq", emoji: "📰" },
     ],
     grammar: {
       unitNumber: 14,
       title: "Adverbs of Time",
       explanation: "This morning (bugun ertalab) va yesterday morning (kecha ertalab) vaqt ravishlari harakatning qachon sodir bo'lganligini o'tmish yoki hozirgi zamonda aniq ko'rsatadi.",
       examples: [
-        { en: "This morning, Olga goes to school early for extra practice.", uz: "Bugun ertalab, Olga qo'chimcha mashg'ulot uchun maktabga vaqtli boradi." },
-        { en: "When did Mark go to music class? He went yesterday morning.", uz: "Mark musiqa darsiga qachon bordi? U kecha ertalab bordi." }
+        { en: "This morning, the blue whale swims through the deep ocean.", uz: "Bugun ertalab ko'k kit chuqur okean bo'ylab suzadi." },
+        { en: "When did Mark hear the whale song? He heard it yesterday morning.", uz: "Mark kit qo'shig'ini qachon eshitdi? U buni kecha ertalab eshitdi." }
       ]
     },
     reading: {
       unitNumber: 14,
-      title: "Forces and Movement",
-      aboutUz: "Bizni qurshagan tabiatda kuch nimaligi, push (itarish) va pull (tortish) kabi kuchlarning jism harakati hamda tezligiga qanday ta'sir qilishi haqida ilmiy-ommabop dars matni.",
-      sentenceEn: "A force makes something move. A push is a force, and a pull is a force, too!",
-      sentenceUz: "Kuch jismni harakatlantiradi. Itarish ham bir kuch, tortish ham bir kuchdir!",
-      emoji: "⚙️",
-      fullTextEn: "We see things move every day. We see people walking, birds flying, and leaves falling to the ground on a windy day. Things move in many ways. They move up and down, right and left, and over and under things. Look around your classroom. What things are moving?\n\nForce\nA force makes something move. A push is a force, and it moves something away from you. We push people on swings. A pull is a force, too, and it moves something toward you. We pull things in wagons. Can you name something you push and something you pull?\n\nMovement\nA small force causes a small movement and a big force causes a big movement. When we use a small force to throw a ball, it doesn't go far. When we use a big force to throw the same ball, it goes a long way.\n\nIt is easier to move a light thing than a heavy thing. We can move a toy car with a small force because it's light. We need a big force to move a real car because it's heavy.\n\nSpeed\nSpeed is how fast things move. Some things, like a train, move fast and some things, like a tortoise, move slowly. Can you name some things that move fast?\n\nA force can change the speed of things. When you push a door with a small force, it opens slowly, but when you push a door with a big force, it opens quickly.\n\nThe next time you see something moving, ask yourself, “What force is moving it, a push or a pull? Is the force small or big?”",
-      fullTextUz: "Biz har kuni narsalarning harakatlanishini ko'ramiz. Biz odamlarning yurishini, qushlarning uchishini va shamolli kunda barglarning yerga tushishini ko'ramiz. Narsalar ko'p jihatdan harakat qiladi. Ular tepaga va pastga, o'ngga va chapga, hamda narsalarning ustidan va ostidan o'tib harakatlanadilar. Sinfxonangizga qarang. Qanday narsalar harakatlanyapti?\n\nKuch\nKuch biror narsani harakatga keltiradi. Itarish (push) ham bir kuch bo'lib, u biron bir narsani sizdan uzoqlashtiradi. Biz odamlarni arg'imchoqlarda itaramiz. Tortish (pull) ham bir kuchdir va u narsalarni sizga yaqinlashtiradi. Biz narsalarni vagonchalarda tortamiz. Siz itaradigan va tortadigan biron bir narsani ayta olasizmi?\n\nHarakat\nKichik kuch kichik harakatga sabab bo'ladi va katta kuch katta harakatga sabab bo'ladi. To'pni otishda kichik kuch ishlatganimizda, u uzoqqa bormaydi. Xuddi o'sha to'pni otishda katta kuch ishlatganimizda esam, u juda uzoq masofaga boradi.\n\nYengil narsani harakatlantirish og'ir narsadan ko'ra osonroqdir. Biz o'yinchoq mashinani ozgina (kichik) kuch bilan harakatlantirishimiz mumkin, chunki u yengil. Haqiqiy mashinani harakatlantirish uchun esa bizga katta kuch kerak bo'ladi, chunki u og'ir.\n\nTezlik\nTezlik - bu narsalarning qanchalik tez harakatlanishidir. Poyezd kabi ba'zi narsalar tez harakatlanadi, toshbaqa kabi ba'zi narsalar esa sekin harakatlanadi. Tez harakatlanadigan narsalarni ayta olasizmi?\n\nKuch narsalarning tezligini o'zgartirishi mumkin. Eshikni kichik kuch bilan itarganingizda u sekin ochiladi, lekin eshikni katta kuch bilan itarganingizda u juda tez (tezkor) ochiladi.\n\nKeyingi safar biror narsani harakatlanayotganini ko'rsangiz, o'zingizdan so'rang: “Uni qaysi kuch harakatlantiryapti, itarishmi yoki tortish? Bu kuch kichikmi yoki kattami?”",
+      title: "The Song of the Whale",
+      aboutUz: "Moviy kitlarning okean tubida guruh bo'lib suzishi va o'zaro muloqot qilish uchun o'ziga xos uzoq masofali past ohangli qo'shiqlar kuylashi haqida.",
+      sentenceEn: "A blue whale can make loud search sounds that travel deep through the ocean.",
+      sentenceUz: "Moviy kit okean qa'ri bo'ylab uzoqqa tarqaladigan baland qidiruv tovushlarini chiqara oladi.",
+      emoji: "🐳",
+      fullTextEn: "The Song of the Whale\nDid you know that some animals can sing under the wet, blue water? The blue whale is the biggest animal on the Earth. It does not live on the ground. It lives in the deep ocean, where it can push and pull its giant body smoothly. It is heavier than a real train, but it moves with great speed through the water.\n\nCommunicating Underwater\nWhales travel in groups. To talk to each other, they make beautiful and mysterious songs. Their voices are very loud and can travel for hundreds of miles under the ocean. Sometimes the music is low and long, and sometimes it is fast and high.\n\nSound and Movement\nWhen a whale sings, the sound travels through the water. Other whales listen to this song. It helps them find food, stay together, and navigate through the dark waters. It is easy for whales to hear each other, even when they are very far apart.\n\nNext time you look at the ocean, remember the giant whales singing their beautiful songs deep below the waves!",
+      fullTextUz: "Kit qo'shig'i\nBa'zi hayvonlarning nam, ko'k suv ostida qo'shiq kuylay olishini bilarmidingiz? Moviy kit - Yer yuzidagi eng ulkan hayvondir. U quruqlikda (ground) yashamaydi. U o'zining ulkan tanasini qulay harakatlantiradigan (push and pull) chuqur okeanda yashaydi. U haqiqiy poyezddan ham og'irroqdir, ammo suvda juda katta tezlikda (speed) suzadi.\n\nSuv Ostida Muloqot\nKitlar guruh bo'lib sayohat qilishadi. Bir-birlari bilan gaplashish uchun ular chiroyli va sirli qo'shiqlar kuylashadi. Ularning ovozlari juda baland bo'lib, okeanning chuqur qa'rida yuzlab millarga tarqala oladi. Ba'zan bu musiqa sekin va uzun (low and long), ba'zan esa tez va baland ohangda bo'ladi.\n\nTovush va Harakat\nKit kuylaganda, tovush suv to'lqinlari orqali harakatlanadi (movement). Boshqa kitlar bu qo'shiqni tinglashadi. Bu ularga oziq-ovqat topishga, guruhda birga qolishga va quruq bo'lmagan qorong'u suvlarda yo'l topishga yordam beradi. Kitlar bir-biridan juda uzoqda bo'lsa ham, bir-birlarini eshitishlari oson (easy) kechadi.\n\nKeyingi safar okeanga qaraganingizda, to'lqinlar ostida o'zlarining go'zal qo'shiqlarini kuylayotgan ulkan kitlarni eslang!",
       questions: [
         {
           id: "r14_q1",
-          questionEn: "What are the two main types of forces mentioned in the force section?",
-          questionUz: "Bo'limda kuchning qaysi ikkita asosiy turi keltirilgan?",
-          options: ["Push and pull", "Float and sink", "Heavy and light", "Up and down"],
-          correctIndex: 0,
-          explanation: "Matnda itarish va tortish kuch turlari ekanligi keltirilgan ('A push is a force... A pull is a force, too')."
+          questionEn: "Where does the blue whale live?",
+          questionUz: "Moviy kit qayerda yashaydi?",
+          options: ["In a real forest behind a tree", "In the deep wet ocean", "On the hard ground of a mountain", "In the school's music class"],
+          correctIndex: 1,
+          explanation: "Moviy kit chuqur okeanda hayot kechiradi ('It lives in the deep ocean...')."
         },
         {
           id: "r14_q2",
-          questionEn: "What kind of force moves something away from you?",
-          questionUz: "Qaysi kuch turli biror jismni sizdan uzoqlashtiradi?",
-          options: ["A push", "A pull", "A small movement", "A low music note"],
-          correctIndex: 0,
-          explanation: "Itarish kuchi jismni sizdan uzoqlashtiradi ('A push is a force, and it moves something away from you')."
+          questionEn: "Why do whales make beautiful songs underwater?",
+          questionUz: "Nima uchun kitlar suv ostida go'zal qo'shiqlar kuylashadi?",
+          options: ["To practice playing the trumpet", "To talk to each other and stay together in groups", "To make stubborn goats fall in the water", "To escape from computers and staplers"],
+          correctIndex: 1,
+          explanation: "Bir-biri bilan gaplashish va guruhda birga bo'lish uchun ('To talk to each other, they make beautiful and mysterious songs')."
         },
         {
           id: "r14_q3",
-          questionEn: "What is the difference between throwing a ball with a small force versus a big force?",
-          questionUz: "Kichik kuch bilan otilgan to'p va katta kuch bilan otilgan to'p farqi nimada?",
-          options: ["A small force doesn't go far, but a big force goes a long way", "A small force goes much further than a big force", "The balls change to computer mice", "Nothing, they fly at the exact same speed"],
+          questionEn: "How are the songs of a whale described?",
+          questionUz: "Kitlarning qo'shiqlari qanday ifodalanadi?",
+          options: ["Sometimes low and long, and sometimes fast and high", "Always quiet like snow falling", "Like a wolf howling at a red door", "Like a loud heavy broom sweeping"],
           correctIndex: 0,
-          explanation: "Katta kuch uni uzoqroqqa olib boradi ('When we use a small force to throw a ball, it doesn't go far... big force... goes a long way')."
+          explanation: "Ba'zan past va uzun, ba'zan esa tez va yuqori bo'ladi ('Sometimes the music is low and long, and sometimes it is fast and high')."
         },
         {
           id: "r14_q4",
-          questionEn: "Is it easier to move a light thing or a heavy thing?",
-          questionUz: "Yengil jismni harakatlantirish osonmi yoki og'ir jismnimi?",
-          options: ["It is easier to move a light thing", "It is easier to move a heavy thing", "Both are always easy to throw on the ground", "Neither requires any force"],
-          correctIndex: 0,
-          explanation: "Yengil jismlarni siljitish har doim osonroq kechadi ('It is easier to move a light thing than a heavy thing')."
+          questionEn: "Is a blue whale lighter or heavier than a real train?",
+          questionUz: "Moviy kit haqiqiy poyezddan yengilroqmi yoki og'irroqmi?",
+          options: ["It is lighter than a single paper crane", "It is heavier than a real train", "Both are exactly the same light weight", "It does not have any weight on Earth"],
+          correctIndex: 1,
+          explanation: "Kit poyezddan og'irroq ('It is heavier than a real train')."
         },
         {
           id: "r14_q5",
-          questionEn: "What happens when you push a door with a big force?",
-          questionUz: "Eshikni katta kuch bilan itarganingizda nima sodir bo'ladi?",
-          options: ["It opens quickly", "It opens slowly", "It turns into a stapler", "It doesn't make any movement"],
-          correctIndex: 0,
-          explanation: "Katta kuch eshikni tez ochilishiga sabab bo'ladi ('when you push a door with a big force, it opens quickly')."
+          questionEn: "How far can their voices travel underwater?",
+          questionUz: "Ularning ovozlari suv ostida qanchalik uzoqqa tarqala oladi?",
+          options: ["Only one or two centimeters", "For hundreds of miles", "Just over the trash cans of the park", "Inside a tiny green desk drawer"],
+          correctIndex: 1,
+          explanation: "Ularning ovozi yuzlab kilometrlarga yeta oladi ('can travel for hundreds of miles under the ocean')."
         }
       ]
     }
@@ -1105,17 +1147,24 @@ export const OXFORD_UNITS: OxfordUnit[] = [
   // --- UNIT 15 ---
   {
     number: 15,
-    title: "From Farm to Table",
+    title: "Forces and Movement",
     bigQuestionNumber: 8,
     vocabulary: [
-      { id: "u15_1", word: "Stubborn", translation: "Qaysar", emoji: "🐐" },
-      { id: "u15_2", word: "Angry", translation: "Jahli chiqqan", emoji: "😡" },
-      { id: "u15_3", word: "Goat", translation: "Echki", emoji: "🐐" },
-      { id: "u15_4", word: "Mountain", translation: "Togʻ", emoji: "🏔️" },
-      { id: "u15_5", word: "West / East", translation: "Gʻarb / Sharq", emoji: "🧭" },
-      { id: "u15_6", word: "Forward", translation: "Oldinga", emoji: "➡️" },
-      { id: "u15_7", word: "Horns", translation: "Shoxlar", emoji: "🦬" },
-      { id: "u15_8", word: "Wet", translation: "Hoʻl / Nam", emoji: "💦" },
+      { id: "u15_1", word: "Push", translation: "Itarmoq / Itarish", emoji: "🫷" },
+      { id: "u15_2", word: "Pull", translation: "Tortmoq / Tortish", emoji: "𫴴" },
+      { id: "u15_3", word: "Movement", translation: "Harakat", emoji: "🏃" },
+      { id: "u15_4", word: "Ground", translation: "Yer / Tuproq", emoji: "🌱" },
+      { id: "u15_5", word: "Throw", translation: "Otmoq / Uloqtirmoq", emoji: "☄️" },
+      { id: "u15_6", word: "Speed", translation: "Tezlik", emoji: "⚡" },
+      { id: "u15_7", word: "Heavy", translation: "Ogʻir", emoji: "⚖️" },
+      { id: "u15_8", word: "Light", translation: "Yengil", emoji: "🎈" },
+      { id: "u15_9", word: "Easy", translation: "Oson", emoji: "👌" },
+      { id: "u15_10", word: "Computer mouse", translation: "Kompyuter sichqonchasi", emoji: "🖱️" },
+      { id: "u15_11", word: "Stapler", translation: "Stepler", emoji: "📎" },
+      { id: "u15_12", word: "Suitcase", translation: "Chamadon", emoji: "🧳" },
+      { id: "u15_13", word: "Broom", translation: "Supurgi", emoji: "🧹" },
+      { id: "u15_14", word: "Door", translation: "Eshik", emoji: "🚪" },
+      { id: "u15_15", word: "Desk drawer", translation: "Gʻaladon / Tortma", emoji: "📥" },
     ],
     grammar: {
       unitNumber: 15,
@@ -1123,59 +1172,59 @@ export const OXFORD_UNITS: OxfordUnit[] = [
       explanation: "Ikki yoki undan ortiq jismlarni o'zaro solishtirishda qisqa sifatlarga '-er' qo'shimchasi va 'than' qo'llaniladi (masalan: lighter than, heavier than, slower than).",
       examples: [
         { en: "A ball is lighter than a desk.", uz: "Koptok stoldan ko'ra yengilroqdir." },
-        { en: "Is a desk heavier than a ball? Yes, it is.", uz: "Stol koptokdan ko'ra og'irroqmi? Ha, og'irroq." },
-        { en: "A train is slower than an airplane.", uz: "Poyezd samolyotdan sekinroqdir." }
+        { en: "A real car is heavier than a toy car.", uz: "Haqiqiy mashina o'yinchoq mashinadan ko'ra og'irroqdir." },
+        { en: "A train is faster than a tortoise.", uz: "Poyezd toshbaqadan ko'ra tezroqdir." }
       ]
     },
     reading: {
       unitNumber: 15,
-      title: "The Two Stubborn Goats",
-      aboutUz: "Tog' so'qmog'ining o'rtasida uchrashgan, bir-biriga yo'l bermay qaysarlik va g'azab qilgan ikki echki hamda ularning daryoga quyilib tushganidan olgan saboqlari haqidagi o'git hikoya.",
-      sentenceEn: "The stubborn goat did not want to walk forward on the mountain path.",
-      sentenceUz: "Qaysar echki togʻ yoʻlagidan oldinga qarab yurishni xohlamadi.",
-      emoji: "🐐",
-      fullTextEn: "Once upon a time, two stubborn goats lived in a beautiful mountain range. One goat lived on the east side, and the other lived on the west side. One day, they both walked along a narrow mountain path. The path was very high and there was a wet river far below.\n\nThe two goats met in the middle of the narrow path. Only one goat could cross at a time, but they were both very stubborn. Neither goat wanted to step back to let the other pass.\n\n“Let me cross first!” said the west goat, shaking its sharp horns.\n\n“No! I was here first!” said the east goat, getting very angry.\n\nThey decided to walk forward and push each other. They locked their strong horns and began to fight on the dangerous ledge.\n\nSuddenly, both goats lost their balance and fell from the high mountain path down into the wet, cold river below!\n\nAs they swam with difficulty to the shore, they felt very wet and silly. They learned that being stubborn and angry only brings trouble, and it is always better to cooperate and share the path.",
-      fullTextUz: "Qadim zamonlarda go'zal tog' tizmasida ikkita qaysar echki yashar edi. Bitta echki sharqiy tomonda, ikkinchisi esa g'arbiy tomonda hayor kechirardi. Bir kuni, har ikkalasi ham tor tog' so'qmog'i (yo'lakchasi) bo'ylab yo'lga tushishdi. Yo'l juda balandda edi va uning pastida yomg'irli, ho'l sovuq daryo oqardi.\n\nIkki echki tor yo'lakning qo'q o'rtasida to'qnash kelishdi. Bir vaqtning o'zida faqat bitta echki o'ta olardi, lekin ikkala echki ham o'ta qaysar edi. Hech biri ikkinchisiga yo'l berish uchun orqaga qadam tashlashni xohlamadi.\n\n“Meni birinchi o'tkazib yubor!” dedi o'zining o'tkir shoxlarini silkitib g'arbiy tomondan kelgan echki.\n\n“Yo'q! Men bu yerga birinchi kelganman!” dedi g'azabi qaynab jahl bilan baqirgan sharqiy echki.\n\nUlar bir-birlarini orqaga itarib, oldinga yurishga harakat qilishdi. Xavfli jarlik chetida o'zlarining baquvvat shoxlarini bir-biriga urib, kurash boshladilar.\n\nTo'satdan, ikkala echki ham muvozanatni yo'qotib, baland tog' yo'lidan pastdagi sovuq, ho'l daryoga uchib tushishdi!\n\nSuvdan zo'rg'a suzib, qirg'oqqa omon chiqib olgach, butunlay ho'l bo'lib ketgan edilar va o'zlarining bu ishlaridan juda uyalishdi. Ular qaysarlik va g'azab faqatgina kulfat keltirishini, yo'lni bo'lishish va hamkorlik qilish har doim yaxshiroq ekanligini anglab yetdilar.",
+      title: "Forces and Movement",
+      aboutUz: "Bizni qurshagan tabiatda kuch nimaligi, push (itarish) va pull (tortish) kabi kuchlarning jism harakati hamda tezligiga qanday ta'sir qilishi haqida ilmiy-ommabop dars matni.",
+      sentenceEn: "A force makes something move. A push is a force, and a pull is a force, too!",
+      sentenceUz: "Kuch jismni harakatlantiradi. Itarish ham bir kuch, tortish ham bir kuchdir!",
+      emoji: "⚙️",
+      fullTextEn: "We see things move every day. We see people walking, birds flying, and leaves falling to the ground on a windy day. Things move in many ways. They move up and down, right and left, and over and under things. Look around your classroom. What things are moving?\n\nForce\nA force makes something move. A push is a force, and it moves something away from you. We push people on swings. A pull is a force, too, and it moves something toward you. We pull things in wagons. Can you name something you push and something you pull?\n\nMovement\nA small force causes a small movement and a big force causes a big movement. When we use a small force to throw a ball, it doesn't go far. When we use a big force to throw the same ball, it goes a long way.\n\nIt is easier to move a light thing than a heavy thing. We can move a toy car with a small force because it's light. We need a big force to move a real car because it's heavy.\n\nSpeed\nSpeed is how fast things move. Some things, like a train, move fast and some things, like a tortoise, move slowly. Can you name some things that move fast?\n\nA force can change the speed of things. When you push a door with a small force, it opens slowly, but when you push a door with a big force, it opens quickly.\n\nThe next time you see something moving, ask yourself, “What force is moving it, a push or a pull? Is the force small or big?”",
+      fullTextUz: "Biz har kuni narsalarning harakatlanishini ko'ramiz. Biz odamlarning yurishini, qushlarning uchishini va shamolli kunda barglarning yerga tushishini ko'ramiz. Narsalar ko'p jihatdan harakat qiladi. Ular tepaga va pastga, o'ngga va chapga, hamda narsalarning ustidan va ostidan o'tib harakatlanadilar. Sinfxonangizga qarang. Qanday narsalar harakatlanyapti?\n\nKuch\nKuch biror narsani harakatga keltiradi. Itarish (push) ham bir kuch bo'lib, u biron bir narsani sizdan uzoqlashtiradi. Biz odamlarni arg'imchoqlarda itaramiz. Tortish (pull) ham bir kuchdir va u narsalarni sizga yaqinlashtiradi. Biz narsalarni vagonchalarda tortamiz. Siz itaradigan va tortadigan biron bir narsani ayta olasizmi?\n\nHarakat\nKichik kuch kichik harakatga sabab bo'ladi va katta kuch katta harakatga sabab bo'ladi. To'pni otishda (throw) kichik kuch ishlatganimizda, u uzoqqa bormaydi. Xuddi o'sha to'pni otishda katta kuch ishlatganimizda esam, u juda uzoq masofaga boradi.\n\nYengil narsani (light) harakatlantirish og'ir narsadan (heavy) ko'ra osonroqdir. Biz o'yinchoq mashinani ozgina (kichik) kuch bilan harakatlantirishimiz mumkin, chunki u yengil. Haqiqiy mashinani harakatlantirish uchun esa bizga katta kuch kerak bo'ladi, chunki u og'ir.\n\nTezlik\nTezlik (speed) - bu narsalarning qanchalik tez harakatlanishidir. Poyezd kabi ba'zi narsalar tez harakatlanadi, toshbaqa kabi ba'zi narsalar esa sekin harakatlanadi. Tez harakatlanadigan narsalarni ayta olasizmi?\n\nKuch narsalarning tezligini o'zgartirishi mumkin. Eshikni kichik kuch bilan itarganingizda (push) u sekin ochiladi, lekin eshikni katta kuch bilan itarganingizda u juda tez (tezkor) ochiladi.\n\nKeyingi safar biror narsani harakatlanayotganini ko'rsangiz, o'zingizdan so'rang: “Uni qaysi kuch harakatlantiryapti, itarishmi yoki tortish? Bu kuch kichikmi yoki kattami?”",
       questions: [
         {
           id: "r15_q1",
-          questionEn: "Where did the two goats live?",
-          questionUz: "Ikkala echki qayerda yashashgan edi?",
-          options: ["In a beautiful mountain range", "At the recycling plant", "Inside a quiet stationery store", "Near a lake behind a tree"],
+          questionEn: "What are the two main types of forces mentioned in the text?",
+          questionUz: "Matnda kuchning qaysi ikkita asosiy turi keltirilgan?",
+          options: ["Push and pull", "Float and sink", "Heavy and light", "Up and down"],
           correctIndex: 0,
-          explanation: "Echkilar go'zal tog' tizmasida istiqomat qilishgan ('lived in a beautiful mountain range')."
+          explanation: "Matnda itarish va tortish kuch turlari ekanligi keltirilgan ('A push is a force... A pull is a force, too')."
         },
         {
           id: "r15_q2",
-          questionEn: "Why couldn't the two goats pass each other easily?",
-          questionUz: "Nima uchun ikki echki bir-birining yonidan osonlikcha o'tib keta olishmadi?",
-          options: ["Because the mountain path was narrow and they were stubborn", "Because the river was too high", "Because a man with a net caught them", "Because they were sleeping during the day"],
+          questionEn: "What kind of force moves something away from you?",
+          questionUz: "Qaysi kuch turi biror jismni sizdan uzoqlashtiradi?",
+          options: ["A push", "A pull", "A small movement", "A low music note"],
           correctIndex: 0,
-          explanation: "Yo'l tor va har ikkalasi o'ta qaysarligi uchun ('The path was narrow... and they were both very stubborn')."
+          explanation: "Itarish kuchi jismni sizdan uzoqlashtiradi ('A push is a force, and it moves something away from you')."
         },
         {
           id: "r15_q3",
-          questionEn: "How did the east goat react to the west goat?",
-          questionUz: "Sharqiy echki g'arbiy echkiga nisbatan qanday munosabatda bo'ldi?",
-          options: ["It smiled happily", "It got very angry", "It offered some fresh grass", "It ran away down the mountain"],
-          correctIndex: 1,
-          explanation: "Juda qattiq jahli chiqib, baqira boshladi ('getting very angry')."
+          questionEn: "What is the difference between throwing a ball with a small force versus a big force?",
+          questionUz: "Kichik kuch bilan otilgan to'p va katta kuch bilan otilgan to'p farqi nimada?",
+          options: ["A small force doesn't go far, but a big force goes a long way", "A small force goes much further than a big force", "The balls change to computer mice", "Nothing, they fly at the exact same speed"],
+          correctIndex: 0,
+          explanation: "Katta kuch uni uzoqroqqa olib boradi ('When we use a small force to throw a ball, it doesn't go far... big force... goes a long way')."
         },
         {
           id: "r15_q4",
-          questionEn: "What happened when they shook horns and started fighting?",
-          questionUz: "Ular shoxlarini urishtirib urusha boshlaganlarida nima yuz berdi?",
-          options: ["They both lost balance and fell into the wet river below", "They shared the path and smiled together", "The mountain path suddenly turned to paper", "They safely flew into the sky"],
+          questionEn: "Is it easier to move a light thing or a heavy thing?",
+          questionUz: "Yengil jismni harakatlantirish osonmi yoki og'ir jismnimi?",
+          options: ["It is easier to move a light thing", "It is easier to move a heavy thing", "Both are always easy to throw on the ground", "Neither requires any force"],
           correctIndex: 0,
-          explanation: "Muvozanatni yo'qotib, pastdagi sovuq daryoga qulashgan ('lost their balance and fell... into the wet, cold river below')."
+          explanation: "Yengil jismlarni siljitish har doim osonroq kechadi ('It is easier to move a light thing than a heavy thing')."
         },
         {
           id: "r15_q5",
-          questionEn: "What did the stubborn goats learn from this experience?",
-          questionUz: "Qaysar echkilar bu voqeadan qanday saboq olishdi?",
-          options: ["Being stubborn and angry only brings trouble; cooperation is better", "Fighting on mountain paths is easier of purpose", "Watering the soil helps plants grow", "To run fast like a train across the bridge"],
+          questionEn: "What happens when you push a door with a big force?",
+          questionUz: "Eshikni katta kuch bilan itarganingizda nima sodir bo'ladi?",
+          options: ["It opens quickly", "It opens slowly", "It turns into a stapler", "It doesn't make any movement"],
           correctIndex: 0,
-          explanation: "Qaysarlik fojia keltirishini va har doim kelishib yo'l berish yaxshi ekanini tushunishgan ('stubborn and angry only brings trouble, and it is always better to cooperate')."
+          explanation: "Katta kuch eshikni tez ochilishiga sabab bo'ladi ('when you push a door with a big force, it opens quickly')."
         }
       ]
     }
@@ -1187,31 +1236,83 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     title: "The Vegetable Garden",
     bigQuestionNumber: 8,
     vocabulary: [
-      { id: "u16_1", word: "Plant", translation: "Ekmoq / Oʻsimlik" },
-      { id: "u16_2", word: "Water", translation: "Sugʻormoq" },
-      { id: "u16_3", word: "Weed", translation: "Begona oʻtlarni yulmoq" },
-      { id: "u16_4", word: "Pick", translation: "Termoq / Uzmoq" },
-      { id: "u16_5", word: "Soil", translation: "Tuproq" },
-      { id: "u16_6", word: "Sunlight", translation: "Quyosh nuri" },
-      { id: "u16_7", word: "Row", translation: "Qator" },
-      { id: "u16_8", word: "Healthy", translation: "Sogʻlom" },
-      { id: "u16_9", word: "Delicious", translation: "Mazali" },
+      { id: "u16_1", word: "Stubborn", translation: "Qaysar / Boʻyin egmas", emoji: "🐐" },
+      { id: "u16_2", word: "Angry", translation: "Jahli chiqqan / Gʻazablangan", emoji: "😡" },
+      { id: "u16_3", word: "Goat", translation: "Echki", emoji: "🐐" },
+      { id: "u16_4", word: "Mountain", translation: "Togʻ", emoji: "🏔️" },
+      { id: "u16_5", word: "West / East", translation: "Gʻarb / Sharq", emoji: "🧭" },
+      { id: "u16_6", word: "Forward", translation: "Oldinga", emoji: "➡️" },
+      { id: "u16_7", word: "Horns", translation: "Shoxlar", emoji: "🦬" },
+      { id: "u16_8", word: "Wet", translation: "Hoʻl / Nam", emoji: "💦" },
+      { id: "u16_9", word: "Plant", translation: "Ekmoq / Oʻsimlik", emoji: "🌱" },
+      { id: "u16_10", word: "Water", translation: "Sugʻormoq / Suv", emoji: "💧" },
+      { id: "u16_11", word: "Weed", translation: "Begona oʻtlarni yulmoq", emoji: "🌿" },
+      { id: "u16_12", word: "Pick", translation: "Termoq / Uzmoq", emoji: "🍓" },
+      { id: "u16_13", word: "Soil", translation: "Tuproq", emoji: "🪵" },
+      { id: "u16_14", word: "Sunlight", translation: "Quyosh nuri", emoji: "☀️" },
+      { id: "u16_15", word: "Row", translation: "Qator", emoji: "📏" },
     ],
     grammar: {
       unitNumber: 16,
       title: "Superlative Adjectives",
-      explanation: "Eng yuqori darajani (orttirma daraja) tasvirlash uchun qisqa sifatlar oxiriga '-est' qo'shimchasi va sifatdan oldin 'the' qo'llaniladi (masalan: the youngest, the juiciest).",
+      explanation: "Eng yuqori darajani (orttirma daraja) tasvirlash uchun qisqa sifatlar oxiriga '-est' qo'shimchasi va sifatdan oldin 'the' qo'llaniladi (masalan: the youngest, the juiciest, the strongest).",
       examples: [
-        { en: "I'm the youngest person in my family.", uz: "Men oilamizdagi eng yosh insonman." },
-        { en: "Is the juiciest grass on East Mountain? Yes, it is.", uz: "Eng sersuv o't Sharqiy tog'dami? Ha, shunday." }
+        { en: "He is the oldest goat on the mountain.", uz: "U tog'dagi eng qari echkidir." },
+        { en: "Who has the strongest horns? The east goat has the strongest horns.", uz: "Kimning shoxlari eng baquvvat? Sharqiy echkining shoxlari eng baquvvat." },
+        { en: "Which portion of the river is the deepest? The middle is the deepest.", uz: "Daryoning qaysi qismi eng chuqur? O'rtasi eng chuqurdir." }
       ]
     },
     reading: {
       unitNumber: 16,
-      title: "Our Vegetable Garden",
-      aboutUz: "Bolaning oʻz hovlisida sabzavotlar ekishi, ularni sugʻorishi va parvarish qilishi haqidagi kundaligi.",
-      sentenceEn: "We must water the soil every day so the vegetables can grow healthy.",
-      sentenceUz: "Sabzavotlar sogʻlom boʻlib oʻsishi uchun biz har kuni tuproqni sugʻorishimiz kerak."
+      title: "The Two Stubborn Goats",
+      aboutUz: "Tog' so'qmog'ining o'rtasida uchrashgan, bir-biriga yo'l bermay qaysarlik va g'azab qilgan ikki echki hamda ularning daryoga quyilib tushganidan olgan saboqlari haqidagi o'git hikoya.",
+      sentenceEn: "The two stubborn goats met in the middle of a narrow mountain path.",
+      sentenceUz: "Ikkita qaysar echki tor tog' so'qmog'ining o'rtasida uchrashdilar.",
+      emoji: "🐐",
+      fullTextEn: "Once upon a time, two stubborn goats lived in a beautiful mountain range. One goat lived on the east side, and the other lived on the west side. One day, they both walked along a narrow mountain path. The path was very high and there was a wet river far below.\n\nThe two goats met in the middle of the narrow path. Only one goat could cross at a time, but they were both very stubborn. Neither goat wanted to step back to let the other pass. They only wanted to walk forward.\n\n“Let me cross first!” said the west goat, shaking its sharp horns.\n\n“No! I was here first!” said the east goat, getting very angry.\n\nThey decided to walk forward and push each other. They locked their strong horns and began to fight on the dangerous ledge.\n\nSuddenly, both goats lost their balance and fell from the high mountain path down into the wet, cold river below!\n\nAs they swam with difficulty to the shore, they felt very wet and silly. They learned that being stubborn and angry only brings trouble, and it is always better to cooperate and share the path.",
+      fullTextUz: "Qadim zamonlarda go'zal tog' tizmasida ikkita qaysar echki yashar edi. Bitta echki sharqiy tomonda, ikkinchisi esa g'arbiy tomonda hayot kechirardi. Bir kuni, har ikkalasi ham tor tog' so'qmog'i (yo'lakchasi) bo'ylab yo'lga tushishdi. Yo'l juda balandda edi va uning pastida yomg'irli, ho'l sovuq daryo oqardi.\n\nIkki echki tor yo'lakning qo'q o'rtasida to'qnash kelishdi. Bir vaqtning o'zida faqat bitta echki o'ta olardi, lekin ikkala echki ham o'ta qaysar edi. Hech biri ikkinchisiga yo'l berish uchun orqaga qadam tashlashni xohlamadi.\n\n“Meni birinchi o'tkazib yubor!” dedi o'zining o'tkir shoxlarini silkitib g'arbiy tomondan kelgan echki.\n\n“Yo'q! Men bu yerga birinchi kelganman!” dedi g'azabi qaynab jahl bilan baqirgan sharqiy echki.\n\nUlar bir-birlarini orqaga itarib, oldinga (forward) yurishga harakat qilishdi. Xavfli jarlik chetida o'zlarining baquvvat shoxlarini bir-biriga urib, kurash boshladilar.\n\nTo'satdan, ikkala echki ham muvozanatni yo'qotib, baland tog' yo'lidan pastdagi sovuq, ho'l daryoga uchib tushishdi!\n\nSuvdan zo'rg'a suzib, qirg'oqqa omon chiqib olgach, butunlay ho'l bo'lib ketgan edilar va o'zlarining bu ishlaridan juda uyalishdi. Ular qaysarlik va g'azab (angry) faqatgina kulfat keltirishini, yo'lni bo'lishish va hamkorlik qilish har doim yaxshiroq ekanligini anglab yetdilar.",
+      questions: [
+        {
+          id: "r16_q1",
+          questionEn: "Where did the two goats live?",
+          questionUz: "Ikkala echki qayerda yashashgan edi?",
+          options: ["In a beautiful mountain range", "At the recycling plant", "Inside a quiet stationery store", "Near a lake behind a tree"],
+          correctIndex: 0,
+          explanation: "Echkilar go'zal tog' tizmasida istiqomat qilishgan ('lived in a beautiful mountain range')."
+        },
+        {
+          id: "r16_q2",
+          questionEn: "Why couldn't the two goats pass each other easily?",
+          questionUz: "Nima uchun ikki echki bir-birining yonidan osonlikcha o'tib keta olishmadi?",
+          options: ["Because the mountain path was narrow and they were stubborn", "Because the river was too high", "Because a man with a net caught them", "Because they were sleeping during the day"],
+          correctIndex: 0,
+          explanation: "Yo'l tor va har ikkalasi o'ta qaysarligi uchun ('The path was narrow... and they were both very stubborn')."
+        },
+        {
+          id: "r16_q3",
+          questionEn: "How did the east goat react to the west goat?",
+          questionUz: "Sharqiy echki g'arbiy echkiga nisbatan qanday munosabatda bo'ldi?",
+          options: ["It smiled happily", "It got very angry", "It offered some fresh grass", "It ran away down the mountain"],
+          correctIndex: 1,
+          explanation: "Juda qattiq jahli chiqib, baqira boshladi ('getting very angry')."
+        },
+        {
+          id: "r16_q4",
+          questionEn: "What happened when they shook horns and started fighting?",
+          questionUz: "Ular shoxlarini urishtirib urusha boshlaganlarida nima yuz berdi?",
+          options: ["They both lost balance and fell into the wet river below", "They shared the path and smiled together", "The mountain path suddenly turned to paper", "They safely flew into the sky"],
+          correctIndex: 0,
+          explanation: "Muvozanatni yo'qotib, pastdagi sovuq daryoga qulashgan ('lost their balance and fell... into the wet, cold river below')."
+        },
+        {
+          id: "r16_q5",
+          questionEn: "What did the stubborn goats learn from this experience?",
+          questionUz: "Qaysar echkilar bu voqeadan qanday saboq olishdi?",
+          options: ["Being stubborn and angry only brings trouble; cooperation is better", "Fighting on mountain paths is easier of purpose", "Watering the soil helps plants grow", "To run fast like a train across the bridge"],
+          correctIndex: 0,
+          explanation: "Qaysarlik fojia keltirishini va har doim kelishib yo'l berish yaxshi ekanini tushunishgan ('stubborn and angry only brings trouble, and it is always better to cooperate')."
+        }
+      ]
     }
   },
 
@@ -1221,37 +1322,93 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     title: "Shapes in Art",
     bigQuestionNumber: 9,
     vocabulary: [
-      { id: "u17_1", word: "Crescent", translation: "Yarim oy shakli" },
-      { id: "u17_2", word: "Star", translation: "Yulduz" },
-      { id: "u17_3", word: "Spiral", translation: "Spiral shakli" },
-      { id: "u17_4", word: "Oval", translation: "Oval (tuxumsimon)" },
-      { id: "u17_5", word: "Straight", translation: "Toʻgʻri (chiziq)" },
-      { id: "u17_6", word: "Nature", translation: "Tabiat" },
-      { id: "u17_7", word: "Collage", translation: "Kollaj" },
-      { id: "u17_8", word: "Sculpture", translation: "Haykal / Skulptura" },
-      { id: "u17_9", word: "Pattern", translation: "Naqsh / Nusxa" },
-      { id: "u17_10", word: "Photograph", translation: "Fotosurat" },
-      { id: "u17_11", word: "Origami", translation: "Origami" },
-      { id: "u17_12", word: "Drawing", translation: "Rasm chizish" },
-      { id: "u17_13", word: "Mobile", translation: "Mobil" },
-      { id: "u17_14", word: "Oil painting", translation: "Moyboʻyoqli rasm" },
-      { id: "u17_15", word: "Mosaic", translation: "Mozaika" },
+      { id: "u17_1", word: "Crescent", translation: "Yarim oy shakli", emoji: "🌙" },
+      { id: "u17_2", word: "Star", translation: "Yulduz", emoji: "⭐" },
+      { id: "u17_3", word: "Spiral", translation: "Spiral shakli", emoji: "🌀" },
+      { id: "u17_4", word: "Oval", translation: "Oval (tuxumsimon)", emoji: "🥚" },
+      { id: "u17_5", word: "Straight", translation: "Toʻgʻri (chiziq)", emoji: "📏" },
+      { id: "u17_6", word: "Nature", translation: "Tabiat", emoji: "🏞️" },
+      { id: "u17_7", word: "Collage", translation: "Kollaj", emoji: "🖼️" },
+      { id: "u17_8", word: "Sculpture", translation: "Haykal / Skulptura", emoji: "🗿" },
+      { id: "u17_9", word: "Pattern", translation: "Naqsh / Nusxa", emoji: "🇱🇹" },
+      { id: "u17_10", word: "Photograph", translation: "Fotosurat", emoji: "📷" },
+      { id: "u17_11", word: "Origami", translation: "Origami", emoji: "📐" },
+      { id: "u17_12", word: "Drawing", translation: "Rasm chizish", emoji: "🎨" },
+      { id: "u17_13", word: "Mobile", translation: "Mobil (osma haykalcha)", emoji: "🎏" },
+      { id: "u17_14", word: "Oil painting", translation: "Moyboʻyoqli rasm", emoji: "🖌️" },
+      { id: "u17_15", word: "Mosaic", translation: "Mozaika", emoji: "🧩" },
     ],
     grammar: {
       unitNumber: 17,
       title: "Quantifiers",
       explanation: "A lot of (ko'plab) tasdiq gaplarda sanaladigan va sanalmaydigan otlar bilan ishlatiladi. Any (hech qanday) inkor va so'roq gaplarda sanaladigan ko'plik yoki sanalmaydigan otlar bilan ishlatiladi.",
       examples: [
-        { en: "There are a lot of shapes. There is a lot of paper.", uz: "U yerda ko'plab shakllar bor. U yerda ko'plab qog'oz bor." },
-        { en: "There aren't any triangles. There isn't any red paint.", uz: "U yerda hech qanday uchburchaklar yo'q. Hech qanday qizil bo'yoq yo'q." }
+        { en: "There are a lot of shapes in this collage.", uz: "Ushbu kollajda ko'plab shakllar bor." },
+        { en: "There isn't any red paint in the studio.", uz: "Studiyada hech qanday qizil bo'yoq yo'q." },
+        { en: "Do we have any shiny paper? Yes, we have a lot of paper.", uz: "Bizda biron yaltiroq qog'oz bormi? Ha, bizda ko'p qog'oz bor." }
       ]
     },
     reading: {
       unitNumber: 17,
       title: "Shapes and Patterns in Art",
-      aboutUz: "Rassomlar oʻz asarlarida (kollaj, haykal, rasm) tabiatdagi spiral, yarim oy va yulduz shakllaridan qanday foydalanishi.",
-      sentenceEn: "The artist made a beautiful collage using shapes like a crescent and a star.",
-      sentenceUz: "Rassom yarim oy va yulduz kabi shakllardan foydalanib goʻzal kollaj yaratdi."
+      aboutUz: "Rassomlar o'z asarlarida (kollaj, haykal, rasm) tabiatdagi spiral, yarim oy va yulduz shakllaridan qanday foydalanishi haqida.",
+      sentenceEn: "Artists use a lot of shapes from nature, like crescents, stars, and spirals.",
+      sentenceUz: "San'atkorlar tabiatdan olingan yarim oylar, yulduzlar va spirallar kabi ko'plab shakllardan foydalanadilar.",
+      emoji: "🎨",
+      fullTextEn: "Shapes and Patterns in Art\nLook around you. Shapes are everywhere! In nature, we can see a bright crescent moon, shining stars, and beautiful spiral shells. Artists look at nature to find ideas. They use a lot of shapes to make interesting art.\n\nCollage and Paintings\nA collage is a picture made by gluing different shapes of paper together. An artist can use a lot of colorful oval, straight, and crescent shapes to build a beautiful collage of a forest. In oil paintings, painters use soft brushes to draw natural patterns.\n\nSculptures and Mobiles\nA sculpture is an art piece made of stone, wood, or metal. Sculptures can have sharp, straight edges or smooth, spiral curves. A mobile is a moving sculpture that hangs from the ceiling. It can have a crescent or star shape moving gently in the air. Each shape is unique. Is there any red paint left for our origami or mosaic? Yes, there is a lot of red paper and canvas!",
+      fullTextUz: "San'atda Shakllar va Naqshlar\nAtrofingizga qarang. Shakllar hamma yerda bor! Tabiatda biz yorqin yarim oy (crescent) shaklini, porlayotgan yulduzlar (star) va go'zal spiralsimon (spiral) chig'anoqlarni ko'rishimiz mumkin. Rassomlar g'oya topish uchun tabiatga (nature) boqadilar. Ular qiziqarli san'at asarlarini yaratish uchun ko'plab shakllardan foydalanadilar.\n\nKollaj va Rasmlar\nKollaj (collage) - bu turli xil qog'oz shakllarini bir-biriga yelimlash orqali yaratilgan rasm. Rassom o'rmon tasvirini yaratish uchun ko'plab rangli oval, to'g'ri (straight) va yarim oy shakllardan foydalanishi mumkin. Moybo'yoqli rangtasvirda (oil painting) esa maxsus naqsh va nusxalar (pattern) chiziladi.\n\nHaykaltaroshlik va Mobillar\nHaykal (sculpture) - tosh, yog'och yoki metalldan yasalgan san'at asari. Haykallar o'tkir, to'g'ri qirralarga yoki silliq, spiralsimon egri chiziqlarga ega bo'lishi mumkin. Mobil (mobile) - bu shiftdan osilib turadigan harakatlanuvchi haykalcha. U havoda aylanadigan yarim oy yoki yulduz shakliga ega bo'lishi mumkin. Har bir shakl o'ziga xosdir. Bizda mozaika (mosaic) uchun biron-bir qizil bo'yoq bormi? Ha, bizda ko'p qog'oz va bo'yoqlar bor!",
+      questions: [
+        {
+          id: "r17_q1",
+          questionEn: "Where do artists get ideas for shapes and patterns?",
+          questionUz: "Rassomlar shakllar va naqshlar uchun g'oyalarni qayerdan olishadi?",
+          options: ["From nature", "From giant computer mice", "From heavy wooden suitcases", "From the cold wet river below"],
+          correctIndex: 0,
+          explanation: "Rassomlar tabiatdan ilhom va g'oyalar oladilar ('Artists look at nature to find ideas')."
+        },
+        {
+          id: "r17_q2",
+          questionEn: "What is a collage?",
+          questionUz: "Kollaj nima?",
+          options: [
+            "A picture made by gluing different shapes of paper together",
+            "A heavy sculpture made of dark metal and wood",
+            "A long fast flute solo performed by Olga",
+            "A kind of stubborn wild animal with horns"
+          ],
+          correctIndex: 0,
+          explanation: "Qog'oz shakllarini yelimlash yo'li bilan hosil qilingan tasvir ('A collage is a picture made by gluing different shapes of paper together')."
+        },
+        {
+          id: "r17_q3",
+          questionEn: "What shapes from nature are specifically mentioned in the first paragraph?",
+          questionUz: "Birinchi xatboshida tabiatning aynan qaysi shakllari tilga olingan?",
+          options: ["Crescent moon, shining stars, and spiral shells", "Whales, boats, and trains", "Staplers, desk drawers, and brooms", "Red plastic bottles and orange cartons"],
+          correctIndex: 0,
+          explanation: "Yarim oy, yulduzlar va spirallar eslatilgan ('crescent moon, shining stars, and beautiful spiral shells')."
+        },
+        {
+          id: "r17_q4",
+          questionEn: "What is a mobile in art?",
+          questionUz: "San'atda 'mobil' nima?",
+          options: [
+            "A moving sculpture that hangs from the ceiling",
+            "A smartphone used to talk to music fans",
+            "A long straight line made with colorful markers",
+            "A fast train moving at extreme speed"
+          ],
+          correctIndex: 0,
+          explanation: "Shiftga osib qo'yiladigan harakatlanuvchi bezak haykalchasi ('A mobile is a moving sculpture that hangs from the ceiling')."
+        },
+        {
+          id: "r17_q5",
+          questionEn: "Which materials can be used for building sculptures?",
+          questionUz: "Haykallarni yasashda qaysi materiallardan foydalanish mumkin?",
+          options: ["Stone, wood, or metal", "Watercolors and soft chalk only", "Water, soil, and sunlight", "Shiny golden paper folders"],
+          correctIndex: 0,
+          explanation: "Tosh, yog'och yoki metall ishlatiladi ('A sculpture is an art piece made of stone, wood, or metal')."
+        }
+      ]
     }
   },
 
@@ -1261,38 +1418,88 @@ export const OXFORD_UNITS: OxfordUnit[] = [
     title: "Origami Panel Story",
     bigQuestionNumber: 9,
     vocabulary: [
-      { id: "u18_1", word: "Shiny", translation: "Yaltiroq" },
-      { id: "u18_2", word: "Fold", translation: "Buklamoq" },
-      { id: "u18_3", word: "Edge", translation: "Chekka / Qirra" },
-      { id: "u18_4", word: "Crane", translation: "Turna" },
-      { id: "u18_5", word: "Seal", translation: "Tyulen" },
-      { id: "u18_6", word: "Crumple", translation: "Gʻijimlamoq" },
-      { id: "u18_7", word: "Waves", translation: "Toʻlqinlar" },
-      { id: "u18_8", word: "Climb", translation: "Tirmashib chiqmoq" },
-      { id: "u18_9", word: "Golden", translation: "Oltinrang" },
-      { id: "u18_10", word: "Markers", translation: "Markerlar" },
-      { id: "u18_11", word: "Scissors", translation: "Qaychi" },
-      { id: "u18_12", word: "Glue", translation: "Yelim" },
-      { id: "u18_13", word: "Watercolors", translation: "Akvarel" },
-      { id: "u18_14", word: "Chalk", translation: "Boʻr" },
-      { id: "u18_15", word: "Colored pencils", translation: "Rangli qalamlar" },
+      { id: "u18_1", word: "Shiny", translation: "Yaltiroq", emoji: "✨" },
+      { id: "u18_2", word: "Fold", translation: "Buklamoq", emoji: "🗂️" },
+      { id: "u18_3", word: "Edge", translation: "Chet / Qirra / Chekka", emoji: "📐" },
+      { id: "u18_4", word: "Crane", translation: "Turna (qush)", emoji: "🦩" },
+      { id: "u18_5", word: "Seal", translation: "Tyulen (hayvon)", emoji: "🦭" },
+      { id: "u18_6", word: "Crumple", translation: "Gʻijimlamoq", emoji: "🗑️" },
+      { id: "u18_7", word: "Waves", translation: "Toʻlqinlar", emoji: "🌊" },
+      { id: "u18_8", word: "Climb", translation: "Tirmashib chiqmoq / Koʻtarilmoq", emoji: "🧗" },
+      { id: "u18_9", word: "Golden", translation: "Oltinrang", emoji: "🪙" },
+      { id: "u18_10", word: "Markers", translation: "Markerlar", emoji: "🖍️" },
+      { id: "u18_11", word: "Scissors", translation: "Qaychi", emoji: "✂️" },
+      { id: "u18_12", word: "Glue", translation: "Yelim", emoji: "🧪" },
+      { id: "u18_13", word: "Watercolors", translation: "Akvarel (suvboʻyoq)", emoji: "🎨" },
+      { id: "u18_14", word: "Chalk", translation: "Boʻr", emoji: "✏️" },
+      { id: "u18_15", word: "Colored pencils", translation: "Rangli qalamlar", emoji: "✏️" },
     ],
     grammar: {
       unitNumber: 18,
       title: "Quantifiers (Questions)",
       explanation: "Did ... have any so'rog'iga ruxsat/rad javoblari beriladi. Sanaladigan otlar sonini so'rash uchun 'How many' va sanalmaydigan narsalar miqdorini so'rash uchun 'How much' ishlatiladi.",
       examples: [
-        { en: "Did Maki have any pencils? No, she didn't.", uz: "Makining biror qalami bormidi? Yo'q, unda yo'q edi." },
-        { en: "How many seals were there? There was one seal.", uz: "U yerda nechta tyulen bor edi? U yerda bitta tyulen bor edi." },
-        { en: "How much paper was there? There was a lot of paper.", uz: "U yerda qancha qog'oz bor edi? U yerda ko'plab qog'oz bor edi." }
+        { en: "Did Maki have any golden paper? Yes, she did.", uz: "Makining biror-bir oltinrang qog'ozi bormidi? Ha, bor edi." },
+        { en: "How many paper cranes did she make? She made three cranes.", uz: "U nechta qog'oz turna yasadi? U uchta turna yasadi." },
+        { en: "How much glue did they use? They used a lot of glue.", uz: "Ular qancha yelim ishlatishdi? Ular ko'p yelim ishlatishdi." }
       ]
     },
     reading: {
       unitNumber: 18,
       title: "The Origami Crane",
-      aboutUz: "Qogʻozni buklash orqali turli hayvonlar (turna, tyulen) yasash san'ati haqida rasmli hikoya.",
-      sentenceEn: "Fold the edge of the paper carefully to make a beautiful golden crane.",
-      sentenceUz: "Chiroyli oltinrang turna yasash uchun qogʻozning chetini ehtiyotkorlik bilan buklang."
+      aboutUz: "Qogʻozni buklash orqali chiroyli turna va tyulen kabi hayvon shakllarini yasash hamda maktabda dars jarayonida ijod qilish haqidagi hikoya.",
+      sentenceEn: "To make an origami crane, you must fold the edge of the shiny golden paper carefully.",
+      sentenceUz: "Origami turnasini yasash uchun yaltiroq oltinrang qog'ozning chetini ehtiyotkorlik bilan buklashingiz kerak.",
+      emoji: "📐",
+      fullTextEn: "The Origami Crane\nToday, Maki and her classmates are making art in school. Their teacher, Ms. Sato, shows them beautiful origami animals. Origami is the traditional Japanese art of folding paper. You do not use scissors or glue. You only use your hands to fold!\n\nFolding Animals\nMaki wants to make a golden crane. She takes a shiny sheet of paper. She folds the paper carefully. First, she folds it into a triangle. Then she folds the edges to make wings. She does not crumple the paper. Soon, a beautiful golden crane is in her hands!\n\nKen wants to make a seal. He takes blue paper and folds it to look like a seal swimming in the waves. Ken uses markers to draw eyes on his seal. How many seals are there on the table? There is one cute seal.\n\nSharing Materials\n“Did you have any colored pencils, Ken?” asks Maki. “No, I didn't,” says Ken. “But I have chalk and watercolors.” The classroom has a lot of paper and art markers. Everyone shares, and they feel very proud of their origami collection. It is a beautiful day of creating art!",
+      fullTextUz: "Origami Turnasi\nBugun Maki va uning sinfdoshlari maktabda san'at darsida ijod qilishmoqda. Ularning o'qituvchisi Sato xonim ularga go'zal origami hayvonlarini ko'rsatdi. Origami - bu an'anaviy yapon qog'oz buklash san'atidir. Bunda siz qaychi (scissors) yoki yelimdan (glue) foydalanmaysiz. Siz faqat qog'ozni buklash (fold) uchun o'z qo'llaringizdan foydalanasiz!\n\nHayvonlarni Buklash\nMaki oltinrang turna yasamoqchi. U yaltiroq (shiny) qog'oz varag'ini olib, uni ehtiyotkorlik bilan bukladi. Avval u uchburchak shaklida bukladi, keyin esa wing (qanotlar) yasash uchun chetlarini (edges) bukladi. Qog'ozni g'ijimlamaslik (crumple) juda muhim. Tez orada uning qo'lida chiroyli oltin turna (crane) namoyon bo'ldi!\n\nKen tyulen yasamoqchi. U ko'k qog'ozni olib, to'lqinlar (waves) orasida suzayotgan tyulenga (seal) o'xshatib bukladi. Stol ustida nechta tyulen bor? Bitta shunday chiroyli tyulen bor.\n\nMateriallarni Baham Ko'rish\n“Kenda biron-bir rangli qalam bormidi?” deb so'radi Maki. “Yo'q, menda yo'q edi,” dedi Ken. “Lekin menda bo'rlar (chalk) va akvarellar (watercolors) bor.” Sinfxonada ko'plab qog'oz va markerlar bor. Hamma ashyolarini baham ko'rdi. San'at darsi barchaga katta faxr (proud) bag'ishladi!",
+      questions: [
+        {
+          id: "r18_q1",
+          questionEn: "What is origami?",
+          questionUz: "Origami nima?",
+          options: [
+            "The traditional Japanese art of folding paper",
+            "A giant ocean whale song communicating in groups",
+            "A narrow high mountain path where stubborn goats fight",
+            "A beautiful flute solo played by Alonso when sick"
+          ],
+          correctIndex: 0,
+          explanation: "Origami an'anaviy yapon qog'oz buklash san'atidir ('Origami is the traditional Japanese art of folding paper')."
+        },
+        {
+          id: "r18_q2",
+          questionEn: "What materials do you NOT use in traditional origami?",
+          questionUz: "An'anaviy origamida qaysi materiallardan foydalanilmaydi?",
+          options: ["Scissors or glue", "Hands and fingers", "Shiny golden paper sheets", "Different colorful colors of paper"],
+          correctIndex: 0,
+          explanation: "Qaychi yoki yelim ishlatilmaydi, faqat qo'lda buklanadi ('You do not use scissors or glue. You only use your hands to fold!')."
+        },
+        {
+          id: "r18_q3",
+          questionEn: "What origami animal does Maki make?",
+          questionUz: "Maki qanday hayvon origamisini yasadi?",
+          options: ["A golden crane", "A blue swimming seal", "A stubborn heavy goat", "A giant singing whale"],
+          correctIndex: 0,
+          explanation: "Maki oltin turna yasadi ('Maki wants to make a golden crane')."
+        },
+        {
+          id: "r18_q4",
+          questionEn: "What does Maki's origami crane look like?",
+          questionUz: "Makining origami turnasi qanday ko'rinishda edi?",
+          options: ["It is a beautiful golden crane", "It is wet, cold, and dirty", "It is shaped like a computer mouse", "It is a loud red trumpet"],
+          correctIndex: 0,
+          explanation: "U yaltiroq oltin turnadir ('Soon, a beautiful golden crane is in her hands!')."
+        },
+        {
+          id: "r18_q5",
+          questionEn: "How many seals are on Ken's table?",
+          questionUz: "Kenning stoli ustida nechta tyulen bor edi?",
+          options: ["One seal", "A lot of seals", "None, because he crumpled them", "Twelve loud musical wolves"],
+          correctIndex: 0,
+          explanation: "Faqatgina bitta tyulen bor edi ('There is one cute seal')."
+        }
+      ]
     }
   }
 ];
